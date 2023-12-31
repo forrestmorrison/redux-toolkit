@@ -1,6 +1,7 @@
 import ChangeColor from "./components/ChangeColor";
 import Login from "./components/Login";
 import Profile from "./components/Profile";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Profile />
       <Login />
       <ChangeColor />
+      <Form />
     </div>
   );
 }
